@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>readStack</title>
+	<style type="text/css">
+	body{
+		background-color: black;
+		font-family: Comic Sans MS;
+		
+	}
+
+	h2{
+		color: white;
+	}
+
+	#linksdiv{
+		background-color: white;
+		
+	}	
+
+	#lTitle{
+		font-style: italic;
+	}
+	</style>
+</head>
+<body>
+
+<h2 align="center">readStack</h2>
+<div id="linksdiv" align="center"><p>----------------------------</p>
+<script type="text/javascript">
+	var links = new Array("https://rebrand.ly/wealthPaulG");
+	function getTitles(temp){
+	 	var strLen = temp.length;
+		var tempTitle = temp.substr(19,strLen);
+		return tempTitle;
+	}		
+	for (var x = 0; links.length > x; x++) {
+		var tempLink = links[x];
+		var newTitle = getTitles(tempLink);
+		document.getElementById('linksdiv').innerHTML = "<a href=" + tempLink + " target='_blank'>" + "<p id='lTitle' >" + newTitle + "</p>" + "</a>";
+	}
+</script>
+</div>
+</body>
+</html>
