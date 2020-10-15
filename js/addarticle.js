@@ -16,7 +16,7 @@ form.addEventListener('submit', e => {
   	 icon: "success",
   	button: "Yay!",
 
-		});})
+		}); setTimeout(function() {location.reload();}, 3000);})
       .catch(error => {window.swal({
   						title: "Error Occured!!",
   						text: "Please Try Again!!",
