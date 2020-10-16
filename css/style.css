@@ -37,11 +37,6 @@ h2{
 
 }
 
-#submitbutton:hover{
-	color: black;
-	background-color: rgb(255,255,255);
-}
-
 #floating-button{
   width: 55px;
   height: 55px;
@@ -73,10 +68,9 @@ li{
 
 }
 
-li:hover{
-	color: black;
-	background-color: rgb(255,255,255);
-		
+li:hover,#submitbutton:hover{
+	background-color: rgb(66,66,67);
+	box-shadow: 0 0 5px #FABE27;
 }
 
 
