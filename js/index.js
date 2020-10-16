@@ -2,7 +2,7 @@ var arr=[];
 var myVar;
 
 function loadScreen(){
-  myVar = setTimeout(showPage, 2500);
+  myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
