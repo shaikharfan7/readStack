@@ -1,6 +1,3 @@
-/*
-
-*/
 'use strict';
 function Spinner(){
 	Spinner.element=document.createElementNS('http://www.w3.org/2000/svg', 'svg');
