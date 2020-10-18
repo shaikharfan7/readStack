@@ -63,7 +63,7 @@ Personal Reading List Page With Google Sheet Integration Using Google AppScript.
     function doGet(e){
     
      //Change SpeadSheet Link Below
-     var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1hPOxLEDj4i4O6PDrvjbZ3GZynpYxdjMci0rnyRt9n8g/edit?usp=sharing");
+     var ss = SpreadsheetApp.openByUrl("YOUR SHARED GOOGLE SHEET LINK HERE");
     
       //Edit Sheetname in argument on below function if different (Sheet1 is default) 
       var sheet = ss.getSheetByName("Sheet1");
