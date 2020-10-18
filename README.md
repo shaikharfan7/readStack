@@ -68,12 +68,12 @@ Personal Reading List Page With Google Sheet Integration Using Google AppScript.
       //Edit Sheetname in argument on below function if different (Sheet1 is default) 
       var sheet = ss.getSheetByName("Sheet1");
       
-     return getUsers(sheet); 
+     return getLinks(sheet); 
       
     }
 
 
-    function getUsers(sheet){
+    function getLinks(sheet){
       var jo = {};
       var dataArray = [];
     
