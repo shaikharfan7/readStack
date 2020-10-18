@@ -1,3 +1,4 @@
+//Change AppScript Link To Use With Your Google Sheet.
 fetch('https://script.google.com/macros/s/AKfycbzRtjjLe2Gdh9VbTjQCpJ9PHKB-ojfLuR_4Bm6fOLhyWd_gMjA/exec')
     .then(res => res.json())
     .then((out) => {

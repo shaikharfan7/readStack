@@ -9,7 +9,7 @@ function Spinner(){
 	c.setAttribute('cy','50');
 	c.setAttribute('r','42');
 	c.setAttribute('stroke-width','10');
-	c.setAttribute('stroke','#FABE27');
+	c.setAttribute('stroke','#FABE27');				
 	c.setAttribute('fill','transparent');
 	Spinner.element.appendChild(c);
 	Spinner.element.style.cssText='position:absolute;left:calc(51% - 51px);top:calc(50% - 50px)';
