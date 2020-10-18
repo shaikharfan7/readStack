@@ -96,7 +96,10 @@ Personal Reading List Page With Google Sheet Integration Using Google AppScript.
     }  
   
 ```
-
+### Screenshots ###
+ ![Screenshot1-Google Sheet With Data](https://github.com/shaikharfan7/readStack/blob/master/res/screenshots/sheet.png)
+ ![Screenshot1-App Page](https://github.com/shaikharfan7/readStack/blob/master/res/screenshots/index.png)
+  ![Screenshot1-Add Form](https://github.com/shaikharfan7/readStack/blob/master/res/screenshots/addform.png)
 
 ### Technology Stack ###
 - [Google AppsScript](https://script.google.com/)
