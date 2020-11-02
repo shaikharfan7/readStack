@@ -3,24 +3,21 @@ const form = document.forms['addarticleform']
           
 form.addEventListener('submit', e => {
     e.preventDefault()
-    window.swal({
+    Swal.fire({
         title: "Adding to stack...",
         text: "Please wait",
-        imageUrl: "images/ajaxloader.gif",
         showConfirmButton: false,
         allowOutsideClick: false,
         });
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => {window.swal({
+    .then(response => {Swal.fire({
   	 title: "Successfully Added!",
   	 icon: "success",
-  	button: "Yay!",
 
 		}); setTimeout(function() {location.reload();}, 3000);})
-      .catch(error => {window.swal({
+      .catch(error => {Swal.fire({
   						title: "Error Occured!!",
   						text: "Please Try Again!!",
   						icon: "warning",
-  						button: "Ok",
 					});})
             })
